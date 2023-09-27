@@ -1,57 +1,149 @@
+body{ 
 
-body{
-    background-color: oldlace;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: oldlace; 
 
-}
-#wrapper{
-    width: 960px;
-    margin: 0 auto;
-    min-height: 100%;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 
+ 
+ 
 
-header{ margin: auto;
-    position: fixed; align-self: center;
-    top: 0;
-    left: 0;
-    background-color: oldlace;
-    color: rgb(3, 3, 3);
-    width: 100%;
-    padding: 10px;
-    border-bottom: 1px rgb(11, 12, 12);
-    
-    
+} 
 
- }
+#wrapper{ 
 
- main{
+    width: 960px; 
+
+    margin: 0 auto; 
+
+    min-height: 100%; 
+
+} 
+
+ 
+ 
+ 
+
+header{ margin: auto; 
+
+    position: fixed; align-self: center; 
+
+    top: 0; 
+
+    left: 0; 
+
+    background-color: oldlace; 
+
+    color: rgb(3, 3, 3); 
+
+    width: 100%; 
+
+    padding: 10px; 
+
+    border-bottom: 1px rgb(11, 12, 12); 
+
+    box-shadow: 0px 3px 6px rgba(0,0,0,0,1); 
+
+     
+
+     
+
+ 
+ 
+
+ } 
+
+ 
+ 
+
+ main{ 
+
+    text-align: center; 
+
+     margin-top: 60px;
+
+      
+
+ } 
+
+ 
+ 
+
+ .content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
     text-align: center;
-     margin-top: 40px;
-     
- }
+}
 
- .box{
-    
-     display: flex;
-     
- }
+ 
+ 
 
- .item {
-     width: 280px;
-     height: 150px;
-     border: 1px solid black;
-     margin: auto;
-     background-color: oklch(from color l c h);
-     padding: 5px;
-     margin: 4px;
-     box-shadow: grey;
- }
-h1{
-    align-self: center;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 300%;
-    
-    
+.custom-button {
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: #090b0b;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.custom-button:hover {
+    background-color: #070606;
+    transform: scale(1.05);
+}
+
+h1{ 
+
+    align-self: center; 
+
+    color: black; 
+
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+
+    font-size: 300%; 
+
+} 
+.header-button-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: #090909;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.container {
+    display: flex; 
+    align-items: center; 
+}
+
+.text {
+    flex: 1; /* Allow the text to grow and take available space */
+    padding: 20px;
+}
+.image {
+    flex: 1; /* Allow the image to grow and take available space */
+    text-align: center; /* Center the image horizontally */
+}
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.header-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: #070606;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center; /* Center-align text horizontally */
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: #2980b9;
 }

@@ -147,3 +147,44 @@ img {
 .header-button:hover {
     background-color: #2980b9;
 }
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+    height: 100%; /* Occupy full height of the viewport */
+}
+
+/* Style for the sidebar heading */
+.sidebar h2 {
+    font-size: 24px;
+}
+
+/* Style for the sidebar menu */
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the sidebar menu items */
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+/* Style for the sidebar menu links */
+.sidebar-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.sidebar-menu a:hover {
+    color: #3498db;
+}
+
+/* Style for the main content area */
+.main-content {
+    padding: 20px;
+    margin-left: 280px;
+}
